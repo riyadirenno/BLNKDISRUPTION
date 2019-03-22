@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+span {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+.bold {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400 !important;
+  margin: 0;
+}
+
+a {
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  text-decoration: underline;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;}
+}
+
+a:hover {
+  color: #6DC4CD;
+}
+
+.blnk-parent {
+  position: relative;
+}
+
+.blnk-parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
