@@ -1,0 +1,27 @@
+@import "typography.scss";
+@import "mobile.scss";
+@import "layout.scss";
+
+html {
+  background-color: #1f1f1f;
+}
+
+iframe {
+  width: 100%;
+  height: 480px;
+}
+
+img {
+  width: 100%;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+hr {
+  border-color: #4f4f4f
+}
+
+.blnk-hero-padding {
+  padding-top: 360px;
+  padding-bottom: 360px;
+}
