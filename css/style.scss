@@ -22,12 +22,6 @@ hr {
 /* Navigational Bar Settings */
 
 .blnk-navbar {
-  background: rgb(255,255,255);
-  background: -moz-linear-gradient(360deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 70%);
-  background: -webkit-linear-gradient(360deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 70%);
-  background: linear-gradient(360deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 70%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
-  background-blend-mode: lighten;
   width: 100%;
 }
 
