@@ -663,6 +663,9 @@ hr {
 .blnk-hr-acknowledgements {
   border-color: #222222; }
 
+.blnk-acknowledgements {
+  background-color: black; }
+
 /* Footer Settings */
-.blnk-foter {
+.blnk-footer {
   background-color: black; }
