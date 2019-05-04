@@ -2,26 +2,121 @@
 @import "mobile.scss";
 @import "layout.scss";
 
+/* Global Style Settings */
+
 html {
-  background-color: #1f1f1f;
+  background-color: black;
+}
+
+body {
+  margin: 0;
 }
 
 iframe {
   width: 100%;
-  height: 480px;
-}
-
-img {
-  width: 100%;
-  background-position: center;
-  background-repeat: repeat;
+  height: 65vh;
 }
 
 hr {
-  border-color: #4f4f4f
+  background: none;
+  margin: 0 !important;
+  position: fixed;
 }
 
-.blnk-hero-padding {
-  padding-top: 360px;
-  padding-bottom: 360px;
+/* Navigational Bar Settings */
+
+.blnk-navbar {
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(360deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 70%);
+  background: -webkit-linear-gradient(360deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 70%);
+  background: linear-gradient(360deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);
+  background-blend-mode: lighten;
+  width: 100%;
+}
+
+/* Project Settings */
+
+.blnk-project {
+  background-image: url('../img/div-bg/blnk-div-bg-1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blnk-project img {
+  height: 100%;
+  width: 100%;
+  padding-top: 46px;
+}
+
+/* Documentary Settings */
+
+.blnk-documentary {
+  background-image: url('../img/div-bg/blnk-div-bg-2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blnk-hr-documentary {
+  border-color: #222222;
+}
+
+/* #ALLUPINYOURSPACE Settings */
+
+.blnk-allupinyourspace {
+  background-image: url('../img/div-bg/blnk-div-bg-3.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.blnk-allupinyourspace img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.instaimg {
+  margin-top: 24px;
+  object-fit: cover;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+}
+
+/* Meet the Team Misc. Settings */
+
+/* Disable Filter
+
+.blnk-mtt img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+*/
+
+.blnk-mtt img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+
+.blnk-mtt {
+  background-image: url('../img/div-bg/blnk-div-bg-4.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* Acknowledgement Misc. Settings */
+
+.blnk-hr-acknowledgements {
+  border-color: #222222;
 }

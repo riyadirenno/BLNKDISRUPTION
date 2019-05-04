@@ -1,26 +1,98 @@
-.blnk-about {
-  padding-top: 36px;
+/* Global Settings Layout */
+
+.text-left {
+  text-align: left;
 }
 
-.blnk-documentary {
-  padding-top: 72px;
-  padding-bottom: 72px;
+.text-center {
+  text-align: center;
 }
+
+.text-right {
+  text-align: right;
+}
+
+/* Navigational Settings Layout */
+
+.blnk-navbar {
+  padding-top: 24px;
+}
+
+/* Hero Layout */
+
+.blnk-hero {
+  height: 98vh;
+  position: relative;
+}
+
+.blnk-hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Documentary Settings Layout */
 
 .blnk-documentary-video {
   padding-bottom: 36px;
 }
 
-.blnk-mtt {
-  padding-top: 72px;
-  padding-bottom: 72px;
+.blnk-documentary {
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
-.blnk-border{
-  padding-top: 72px;
-  padding-bottom: 72px;
+.blnk-allupinyourspace {
+  padding-top: 36px;
 }
+
+/* Meet the Team Settings Layout */
+
+.blnk-mtt {
+  padding-top: 36px;
+  padding-bottom: 60px;
+}
+
+.blnk-mtt img {
+  padding-bottom: 24px;
+}
+
+/* Acknowledgements Settings Layout */
+
+.blnk-acknowledgements {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Footer Settings Layout */
 
 .blnk-footer {
-  padding-bottom: 72px;
+  padding-bottom: 24px;
+}
+
+.blnk-footer-link-1 {
+  display: inline-block;
+}
+
+.blnk-footer-link-2 {
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.blnk-footer-link-3 {
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.blnk-footer-right {
+  display: inline-block;
+}
+
+.blnk-footer-fis-portal {
+  padding-right: 24px;
+}
+
+.blnk-footer-copyright {
+  padding-right: 24px;
 }

@@ -1,162 +1,241 @@
-p {
-  color: white;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-}
+/* Global Settings Typography */
 
-h1 {
-  color: white;
+p {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  font-size: 40px;
-  font-weight: 700;
+  color: white;
 }
 
 a {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
   color: white;
   text-decoration: underline;
-  font-family: 'Roboto', sans-serif;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
-.text-right {
+a:hover {
+  color: #999999;
+}
+
+span {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 42px;
+  padding-bottom: 24px;
+}
+
+/* Navigational Bar Typography */
+
+.blnk-navbar-link {
+  padding-top: 8px;
+  font-size: 12px;
+  a {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.blnk-navbar-instagram {
+  font-size: 12px;
+  padding-top: 8px;
   text-align: right;
 }
 
-.text-center {
-  text-align: center;
+/* Hero Typography */
+
+h1 {
+  padding: 0;
 }
 
-/* Hero */
+h2 {
+  padding: 0;
+  font-size: 24px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  font-weight: 300;
+}
 
 .blnk-hero-caption {
-  font-weight: 300;
-  font-size: 24px;
+  font-size: 12px;
+  padding-top: 24px;
 }
 
-/* About */
-
-.blnk-about h1 {
-  padding-bottom: 36px;
+.blnk-hero-documentary {
+  padding-top: 24px;
+  font-size: 24px;
+  font-weight: 300;
 }
 
-.blnk-about-regular {
-  font-weight: 300;
+.blnk-hero-scroll {
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  padding-bottom: 24px;
+}
+
+.blnk-hero-caption-padding {
+  padding-top: 4px;
+}
+
+/* Project Typography */
+
+.blnk-project h1 {
+  padding-top: 36px;
+}
+
+.blnk-project-1 {
   font-size: 24px;
+  font-weight: 300;
+  padding-top: 24px;
+}
+
+.blnk-project-2 {
+  font-size: 16px;
+  font-weight: 300;
+  padding-top: 20px;
+}
+
+.blnk-project-3 {
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+/* Documentary Settings Typography */
+
+.blnk-documentary-1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.blnk-documentary-2 {
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.blnk-documentary-bold {
+  font-weight: 500;
+}
+
+.blnk-documentary-left {
+  font-size: 14px;
+}
+
+/* ALLUPINYOURSPACE Settings Typography */
+
+.blnk-allupinyourspace-content {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.blnk-allupinyourspace-1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.blnk-allupinyourspace-2 {
+  font-size: 16px;
+  padding-top: 20px;
+  font-weight: 300;
   padding-bottom: 12px;
 }
 
-.blnk-about-small {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-/* Documentary */
-
-.blnk-documentary-regular {
-  font-weight: 300;
-  font-size: 24px;
-  padding-bottom: 12px;
-}
-
-.blnk-documentary-small {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-.blnk-documentary-caption-1 {
-  font-weight: 300;
+.blnk-allupinyourspace-link {
+  padding-top: 36px;
   font-size: 12px;
 }
 
-.blnk-documentary-caption-2 {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-/* Instagram */
-
-.blnk-instagram h1 {
-  padding-bottom: 36px;
-}
-
-.blnk-insta-regular {
-  font-weight: 300;
-  font-size: 24px;
-  padding-bottom: 12px;
-}
-
-.blnk-insta-small {
-  font-weight: 400;
-  font-size: 16px;
-}
-
-/* Meet the Team */
+/* Meet the Team Settings Typography */
 
 .blnk-mtt h1 {
-  padding-bottom: 36px;
+  padding-bottom: 24px;
 }
 
-.blnk-caption {
+.blnk-mtt-name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.blnk-mtt-position {
+  font-size: 12px;
+}
+
+.blnk-mtt-insta-portfolio {
   padding-top: 12px;
-  font-size: 12px;
-  font-weight: 300;
+
+  p {
+    font-size: 12px;
+  }
+
+  a {
+    font-size: 12px;
+  }
 }
 
-.blnk-mtt-bold-top {
-  font-weight: 400;
-  font-size: 16px;
-  padding-top: 32px;
-}
+/* Acknowledgements Settings Typography */
 
-.blnk-mtt-bold-bottom {
-  font-weight: 300;
-  font-size: 16px;
-  padding-bottom: 16px;
-}
-
-.blnk-mtt-regular {
-  font-size: 12px;
-  font-weight: 300;
-}
-
-.blnk-mtt a {
-  font-size: 12px;
-  font-weight: 400;
-}
-
-/* Acknowledgements */
-
-.blnk-acknowledgements-top {
-  font-weight: 300;
+.blnk-acknowledgements {
   font-size: 24px;
+  font-weight: 300;
 }
 
-.blnk-acknowledgements-middle {
-  font-weight: 300;
-  font-size: 24px;
-  padding-top: 36px;
-  padding-bottom: 36px;
+.blnk-acknowledgements-padding-1 {
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
-.blnk-acknowledgements-bottom {
-  font-weight: 300;
-  font-size: 24px;
+.blnk-acknowledgements-padding-2 {
+  padding-top: 18px;
 }
 
-/* Footer */
+/* Footer Settings Typography */
 
-.blnk-footer-regular {
-  font-weight: 300;
-  font-size: 24px;
+.blnk-footer-right  {
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+  span {
+    font-size: 12px;
+  }
 }
 
-.blnk-footer-small {
-  font-weight: 300;
-  padding-top: 16px;
-  font-size: 16px;
+.blnk-footer-left {
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-size: 12px;
+  }
+  span {
+    font-size: 12px;
+  }
 }
 
-.blnk-footer-small-2 {
-  font-weight: 300;
-  font-size: 16px;
+.blnk-footer-scroll-top {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 24px;
+
+  a {
+    color: #444444;
+  }
 }
