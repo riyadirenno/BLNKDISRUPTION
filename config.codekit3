@@ -427,12 +427,42 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/video/blnk-hero.gif": {
+		"ft": 4194304,
+		"iS": 183966,
+		"oA": 0,
+		"oAP": "/video/blnk-hero.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/video/blnk-hero.jpg": {
+		"ft": 16384,
+		"iS": 92169,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/video/blnk-hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/video/blnk-hero.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/video/blnk-hero.mp4",
 		"oF": 0
+		},
+	"/video/blnk-hero.png": {
+		"ft": 32768,
+		"iS": 453610,
+		"oA": 0,
+		"oAP": "/video/blnk-hero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		}
 	},
 "hooks": [
