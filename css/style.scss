@@ -19,6 +19,24 @@ hr {
   position: fixed;
 }
 
+.blnk-graph-1 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+.blnk-graph-2 {
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
 /* Navigational Bar Settings */
 
 .blnk-navbar {
@@ -38,7 +56,18 @@ hr {
 .blnk-project img {
   height: 100%;
   width: 100%;
-  padding-top: 46px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+/* Findings Settings */
+
+.blnk-findings {
+  background-image: url('../img/div-bg/blnk-div-bg-5.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* Documentary Settings */
