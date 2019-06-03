@@ -558,6 +558,11 @@ h2 {
   padding-top: 36px;
   padding-bottom: 36px; }
 
+/* Discussion Settings */
+.blnk-disc {
+  padding-top: 36px;
+  padding-bottom: 36px; }
+
 /* Documentary Settings Layout */
 .blnk-documentary-video {
   padding-bottom: 36px; }
@@ -656,6 +661,14 @@ hr {
 /* Findings Settings */
 .blnk-findings {
   background-image: url("../img/div-bg/blnk-div-bg-5.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+/* Discussion Settings */
+.blnk-disc {
+  background-image: url("../img/div-bg/blnk-div-bg-1.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
